@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="{{ get_locale() }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if get_locale() == 'fr' %}Bienvenue à Holberton{% else %}Welcome to Holberton{% endif %}</title>
+</head>
+<body>
+  <h1>{% if get_locale() == 'fr' %}Bonjour le monde{% else %}Hello world{% endif %}</h1>
+</body>
+</html>
