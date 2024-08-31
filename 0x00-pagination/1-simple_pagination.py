@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""pagination module"""
 
 import csv
 import math
